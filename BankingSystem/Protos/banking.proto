@@ -1,0 +1,108 @@
+syntax = "proto3";
+
+package banking;
+
+import "google/protobuf/timestamp.proto";
+
+option csharp_namespace = "BankingSystem.Grpc";
+
+message Money {
+	string amount = 1;
+	string currency = 2;
+}
+
+message Account {
+	string account_id = 1;
+	string owner_name = 2;
+	Money balance = 3;
+	string owner_status = 4;
+}
+
+message Address {
+	string country = 1;
+	string region = 2;
+	string city = 3;
+	string street = 4;
+	string house = 5;
+	string zipCode = 6;
+}
+
+message CreateCustomerRequest {
+	string firstName = 1;
+	string lastName = 2;
+	string middleName = 3;
+	string phone = 4;
+	string email = 5;
+	Address address = 6;
+}
+
+message CreateCustomerResponse {
+	string customer_id = 1;
+	string error = 2;
+}
+
+message CreateAccountRequest {
+	string customer_id = 1;
+	Money balance = 2;
+}
+
+message CreateAccountResponse {
+	string account_id = 1;
+	string error = 2;
+}
+
+message GetAccountRequest {
+	string account_id = 1;
+}
+
+message GetAccountResponse {
+	Account account = 1;
+}
+
+message TransferRequest {
+	string from_account_id = 1;
+	string to_account_id = 2;
+	Money money = 3;
+}
+
+message TransferResponse {
+	bool success = 1;
+	string balance = 2;
+	string error = 3;
+}
+
+message BlockAccountRequest {
+	string account_id = 1;
+}
+
+message BlockAccountResponse {
+	bool success = 1;
+}
+
+message Transaction {
+	string transaction_id = 1;
+	string amount = 2;
+	string type = 3;
+	google.protobuf.Timestamp create_date = 4;
+}
+
+message GetTransactionsRequest {
+	string account_id = 1;	
+	int32  page_number = 2;
+	int32 page_size = 3;
+}
+
+message GetTransactionsResponse {
+	repeated Transaction transactions = 1;
+}
+
+service Banking {
+	rpc CreateCustomer(CreateCustomerRequest) returns (CreateCustomerResponse);
+	rpc CreateAccount(CreateAccountRequest) returns (CreateAccountResponse);
+	rpc GetAccount(GetAccountRequest) returns (GetAccountResponse);
+	rpc Transfer(TransferRequest) returns (TransferResponse);
+	rpc Deposit(TransferRequest) returns (TransferResponse);
+	rpc Withdraw(TransferRequest) returns (TransferResponse);
+	rpc BlockAccount(BlockAccountRequest) returns (BlockAccountResponse);
+	rpc GetTransactions(GetTransactionsRequest) returns (GetTransactionsResponse);
+}

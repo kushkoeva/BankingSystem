@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "AfTkrehzBng=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\akush\\source\\repos\\BankingSystem\\BankingSystem.Client\\BankingSystem.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\akush\\.nuget\\packages\\google.protobuf\\3.32.1\\google.protobuf.3.32.1.nupkg.sha512",
+    "C:\\Users\\akush\\.nuget\\packages\\grpc.core.api\\2.71.0\\grpc.core.api.2.71.0.nupkg.sha512",
+    "C:\\Users\\akush\\.nuget\\packages\\grpc.net.client\\2.71.0\\grpc.net.client.2.71.0.nupkg.sha512",
+    "C:\\Users\\akush\\.nuget\\packages\\grpc.net.common\\2.71.0\\grpc.net.common.2.71.0.nupkg.sha512",
+    "C:\\Users\\akush\\.nuget\\packages\\grpc.tools\\2.72.0\\grpc.tools.2.72.0.nupkg.sha512",
+    "C:\\Users\\akush\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

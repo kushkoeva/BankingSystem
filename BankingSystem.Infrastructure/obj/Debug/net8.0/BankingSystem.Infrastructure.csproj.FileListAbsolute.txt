@@ -1,0 +1,17 @@
+C:\Users\akush\source\repos\BankingSystem\BankingSystem.Infrastructure\obj\Debug\net8.0\BankingSystem.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\akush\source\repos\BankingSystem\BankingSystem.Infrastructure\obj\Debug\net8.0\BankingSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akush\source\repos\BankingSystem\BankingSystem.Infrastructure\obj\Debug\net8.0\BankingSystem.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\akush\source\repos\BankingSystem\BankingSystem.Infrastructure\obj\Debug\net8.0\BankingSystem.Infrastructure.AssemblyInfo.cs
+C:\Users\akush\source\repos\BankingSystem\BankingSystem.Infrastructure\obj\Debug\net8.0\BankingSystem.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\akush\source\repos\BankingSystem\BankingSystem.Infrastructure\bin\Debug\net8.0\BankingSystem.Infrastructure.deps.json
+C:\Users\akush\source\repos\BankingSystem\BankingSystem.Infrastructure\bin\Debug\net8.0\BankingSystem.Infrastructure.runtimeconfig.json
+C:\Users\akush\source\repos\BankingSystem\BankingSystem.Infrastructure\bin\Debug\net8.0\BankingSystem.Infrastructure.dll
+C:\Users\akush\source\repos\BankingSystem\BankingSystem.Infrastructure\bin\Debug\net8.0\BankingSystem.Infrastructure.pdb
+C:\Users\akush\source\repos\BankingSystem\BankingSystem.Infrastructure\bin\Debug\net8.0\BankingSystem.Domain.dll
+C:\Users\akush\source\repos\BankingSystem\BankingSystem.Infrastructure\bin\Debug\net8.0\BankingSystem.Domain.pdb
+C:\Users\akush\source\repos\BankingSystem\BankingSystem.Infrastructure\obj\Debug\net8.0\BankingS.E7F5906C.Up2Date
+C:\Users\akush\source\repos\BankingSystem\BankingSystem.Infrastructure\obj\Debug\net8.0\BankingSystem.Infrastructure.dll
+C:\Users\akush\source\repos\BankingSystem\BankingSystem.Infrastructure\obj\Debug\net8.0\refint\BankingSystem.Infrastructure.dll
+C:\Users\akush\source\repos\BankingSystem\BankingSystem.Infrastructure\obj\Debug\net8.0\BankingSystem.Infrastructure.pdb
+C:\Users\akush\source\repos\BankingSystem\BankingSystem.Infrastructure\obj\Debug\net8.0\BankingSystem.Infrastructure.genruntimeconfig.cache
+C:\Users\akush\source\repos\BankingSystem\BankingSystem.Infrastructure\obj\Debug\net8.0\ref\BankingSystem.Infrastructure.dll
