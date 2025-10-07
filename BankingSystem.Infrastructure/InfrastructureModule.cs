@@ -1,5 +1,6 @@
 ﻿using BankingSystem.Domain.Interfaces;
 using BankingSystem.Infrastructure.Repositories;
+using BankingSystem.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -19,6 +20,7 @@ namespace BankingSystem.Infrastructure
 
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddScoped<IAccountRepository, AccountRepository>();
+            services.AddSingleton<ICurrencyRateService, CurrencyRateService>();
 
             return services;
         }

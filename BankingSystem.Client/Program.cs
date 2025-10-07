@@ -2,10 +2,10 @@
 using Grpc.Net.Client;
 
 using var channel = GrpcChannel.ForAddress("http://localhost:5276");
-var client = new Banking.BankingClient(channel);
+var bankingClient = new Banking.BankingClient(channel);
 
 
-var customerResponse = await client.CreateCustomerAsync(new CreateCustomerRequest
+var customerResponse = await bankingClient.CreateCustomerAsync(new CreateCustomerRequest
 {
     FirstName = "Марина",
     LastName = "Добродеева",
@@ -25,7 +25,7 @@ var customerResponse = await client.CreateCustomerAsync(new CreateCustomerReques
 
 Console.WriteLine($"Customer created: {customerResponse.CustomerId}");
 
-var accountResponse = await client.CreateAccountAsync(new CreateAccountRequest
+var accountResponse = await bankingClient.CreateAccountAsync(new CreateAccountRequest
 {
     CustomerId = customerResponse.CustomerId,
     Balance = new Money
@@ -37,7 +37,7 @@ var accountResponse = await client.CreateAccountAsync(new CreateAccountRequest
 
 Console.WriteLine($"Account created: {accountResponse.AccountId}");
 
-var depositResponse = await client.DepositAsync(new TransferRequest
+var depositResponse = await bankingClient.DepositAsync(new TransferRequest
 {
     ToAccountId = accountResponse.AccountId,
     Money = new Money
@@ -49,7 +49,7 @@ var depositResponse = await client.DepositAsync(new TransferRequest
 
 Console.WriteLine($"New balance after deposit: {depositResponse.Balance}");
 
-var withdrawResponse = await client.WithdrawAsync(new TransferRequest
+var withdrawResponse = await bankingClient.WithdrawAsync(new TransferRequest
 {
     FromAccountId = accountResponse.AccountId,
     Money = new Money

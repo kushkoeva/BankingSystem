@@ -1,0 +1,11 @@
+C:\Users\akush\source\repos\BankingSystem\Domain\bin\Debug\net8.0\BankingSystem.Domain.deps.json
+C:\Users\akush\source\repos\BankingSystem\Domain\bin\Debug\net8.0\BankingSystem.Domain.dll
+C:\Users\akush\source\repos\BankingSystem\Domain\bin\Debug\net8.0\BankingSystem.Domain.pdb
+C:\Users\akush\source\repos\BankingSystem\Domain\obj\Debug\net8.0\BankingSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akush\source\repos\BankingSystem\Domain\obj\Debug\net8.0\BankingSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\akush\source\repos\BankingSystem\Domain\obj\Debug\net8.0\BankingSystem.Domain.AssemblyInfo.cs
+C:\Users\akush\source\repos\BankingSystem\Domain\obj\Debug\net8.0\BankingSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\akush\source\repos\BankingSystem\Domain\obj\Debug\net8.0\BankingSystem.Domain.dll
+C:\Users\akush\source\repos\BankingSystem\Domain\obj\Debug\net8.0\refint\BankingSystem.Domain.dll
+C:\Users\akush\source\repos\BankingSystem\Domain\obj\Debug\net8.0\BankingSystem.Domain.pdb
+C:\Users\akush\source\repos\BankingSystem\Domain\obj\Debug\net8.0\ref\BankingSystem.Domain.dll
